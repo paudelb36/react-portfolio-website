@@ -1,0 +1,78 @@
+ Light Mode (Green Theme)
+Primary Color: #12900d (Green, your theme color)
+Text Color: #333 (Dark grey for readability)
+Background Color: #f8f8f8 (Light beige or off-white for a clean look)
+Accent Color: #e6f5e6 (A lighter shade of green for buttons, highlights, or cards)
+Hover Effects: Use a darker shade of green like #0b5e07.
+2. Dark Mode
+Background Color: #121212 (Very dark grey, common in dark themes)
+Primary Color: #12900d (Keep the same green for consistency)
+Text Color: #f8f8f8 (White or off-white for clear visibility)
+Accent Color: #1a3d1b (A dark muted green for cards or sections)
+Hover Effects: Use #26a123 (Brighter green for hover states).
+
+
+Implementation Tips
+
+:root {
+  --primary-color: #12900d;
+  --text-color: #333;
+  --bg-color: #f8f8f8;
+  --accent-color: #e6f5e6;
+}
+
+[data-theme="dark"] {
+  --primary-color: #12900d;
+  --text-color: #f8f8f8;
+  --bg-color: #121212;
+  --accent-color: #1a3d1b;
+}
+
+
+//Folder Structure
+portfolio-website/
+│
+├── 📂 public/                      # Public static assets
+│   ├── profile.jpg                 # Profile picture
+│   ├── favicon.ico                 # Website favicon
+│   └── index.html                  # Main HTML template
+│
+├── 📂 src/                         # Main source folder
+│   ├── 📂 assets/                  # Images, fonts, and styles
+│   │   ├── images/                 # Image assets
+│   │   │   └── profile.jpg         # Example profile image
+│   │   ├── fonts/                  # Custom fonts
+│   │   └── styles/                 # CSS/SCSS styles
+│   │       ├── main.css            # General styling
+│   │       ├── darkmode.css        # Styles for dark mode
+│   │       └── variables.css       # Theme variables (colors, etc.)
+│   │
+│   ├── 📂 components/              # Reusable components
+│   │   ├── Navbar.jsx              # Navigation bar
+│   │   ├── Footer.jsx              # Footer section
+│   │   ├── Skills.jsx              # Skills and technologies section
+│   │   ├── About.jsx               # About section
+│   │   ├── Projects.jsx            # Projects section
+│   │   ├── Resume.jsx              # Resume section
+│   │   ├── Contact.jsx             # Contact information
+│   │   └── ThemeToggle.jsx         # Dark/Light mode toggle button
+│   │
+│   ├── 📂 pages/                   # Pages for routing
+│   │   ├── Home.jsx                # Home page
+│   │   ├── ProjectsPage.jsx        # Projects page
+│   │   ├── ResumePage.jsx          # Resume page
+│   │   └── NotFound.jsx            # 404 Page
+│   │
+│   ├── 📂 hooks/                   # Custom React hooks
+│   │   └── useDarkMode.js          # Hook for managing dark mode
+│   │
+│   ├── 📂 context/                 # Context API for global state
+│   │   └── ThemeContext.jsx        # Context for dark/light mode
+│   │
+│   ├── App.jsx                     # Main React component
+│   ├── index.js                    # ReactDOM rendering entry point
+│   └── config.js                   # Configurations like site metadata
+│
+├── .gitignore                      # Ignore files for git
+├── package.json                    # Project dependencies
+└── README.md                       # Project documentation
