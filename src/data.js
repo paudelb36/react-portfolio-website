@@ -6,7 +6,7 @@ export const projects = [
     name: "Recipe Finder",
     description:
       "A web application that allows users to search for recipes based on ingredients, powered by React and styled with Tailwind CSS.",
-    image: "/recipeFinder.png",
+    image: "public/recipeFinder.jpg",
     github_url: "https://github.com/paudelb36/recipe-finder",
     category: ["React"],
     key_value: ["React", "Tailwind"],
@@ -16,7 +16,7 @@ export const projects = [
     name: "Readers Network",
     description:
       "A social networking platform for book enthusiasts to share and discover reviews, built using PHP and MySQL with a modern design using Tailwind CSS.",
-    image: "/readersNetwork.png",
+    image: "public/readersNetwork.jpg",
     github_url: "https://github.com/paudelb36/readers-network-social",
     category: ["PHP"],
     key_value: ["PHP", "MySQL", "HTML", "CSS", "Tailwind"],
@@ -26,7 +26,7 @@ export const projects = [
     name: "Hostel Finders",
     description:
       "A web application to search and book hostels based on user preferences, developed using PHP and MySQL with a responsive design.",
-    image: "/hostelFinders.png",
+    image: "public/hostelFinders.jpg",
     github_url: "https://github.com/paudelb36/hostel-finders-website",
     category: ["PHP"],
     key_value: ["PHP", "MySQL", "HTML", "CSS"],
@@ -36,7 +36,7 @@ export const projects = [
     name: "Task Manager",
     description:
       "A simple task management application to organize and track daily tasks, created using JavaScript, HTML, and CSS.",
-    image: "/taskManager.png",
+    image: "public/taskManager.jpg",
     github_url: "https://github.com/paudelb36/Task-Manager-Application",
     category: ["Javascript"],
     key_value: ["Javascript", "HTML", "CSS"],
@@ -46,7 +46,7 @@ export const projects = [
     name: "Contact App",
     description:
       "A contact management system that integrates Firebase for real-time database functionality, built with React and styled using Tailwind CSS.",
-    image: "/firebaseContact.png",
+    image: "public/firebaseContact.jpg",
     github_url: "https://github.com/paudelb36/firebase-contact-app",
     category: ["React"],
     key_value: ["React", "Tailwind", "Firebase"],
@@ -56,7 +56,7 @@ export const projects = [
     name: "Nurse Management System",
     description:
       "A web-based management system for nursing services to manage schedules, records, and clients, created using PHP and MySQL.",
-    image: "/nursaryWebsite.png",
+    image: "public/nursaryWebsite.jpg",
     github_url: "https://github.com/paudelb36/nursarywebsite",
     category: ["PHP"],
     key_value: ["PHP", "MySQL", "HTML", "CSS"],
@@ -66,7 +66,7 @@ export const projects = [
     name: "Portfolio Website",
     description:
       "A personal portfolio website to showcase projects and skills, designed with React and Tailwind CSS for a professional look.",
-    image: "/portfolioWebsite.png",
+    image: "public/portfolioWebsite.jpg",
     github_url: "https://github.com/paudelb36/react-portfolio-website",
     category: ["React"],
     key_value: ["React", "Tailwind"],
