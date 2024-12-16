@@ -52,28 +52,44 @@ const Sidebar = () => {
             </a>
           </div>
         </div>
-        <div className="mt-8 w-full p-1 border-2 border-primary rounded-lg">
-          <h3 className="text-lg border-b-2 border-primary text-textColor-light dark:text-textColor-dark">
-            Contact.
-          </h3>
-          <div className="mt-4">
-            <div className="flex items-center gap-2 mb-2">
-              <MdLocationOn className="text-primary text-xl" />
-              <span className="text-[16px] text-textColor-light dark:text-textColor-dark">
-                Suryabinayak, Bhaktapur
-              </span>
-            </div>
-            <div className="flex items-center gap-2 mb-2">
-              <MdEmail className="text-primary text-xl" />
-              <span className="text-[16px] text-textColor-light dark:text-textColor-dark">
-                paudelb11@gmail.com
-              </span>
-            </div>
-            <div className="flex items-center gap-2 mb-4">
-              <MdPhone className="text-primary text-xl" />
-              <span className="text-[16px] text-textColor-light dark:text-textColor-dark">
-                +977 9849632274
-              </span>
+        <div className="mt-6 w-full">
+          <div className="p-2 border-2 border-primary rounded-lg">
+            <h3 className="text-base border-b-2 border-primary pb-1 text-textColor-light dark:text-textColor-dark">
+              Contact.
+            </h3>
+
+            <div className="mt-3 space-y-2">
+              <a
+                href="https://maps.google.com/?q=Suryabinayak,Bhaktapur"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 hover:bg-gray-100 dark:hover:bg-gray-800 p-1.5 rounded-lg transition-colors"
+              >
+                <MdLocationOn className="text-primary text-lg flex-shrink-0" />
+                <span className="text-sm text-textColor-light dark:text-textColor-dark truncate">
+                  Suryabinayak, Bhaktapur
+                </span>
+              </a>
+
+              <a
+                href="mailto:paudelb11@gmail.com"
+                className="flex items-center gap-2 hover:bg-gray-100 dark:hover:bg-gray-800 p-1.5 rounded-lg transition-colors"
+              >
+                <MdEmail className="text-primary text-lg flex-shrink-0" />
+                <span className="text-sm text-textColor-light dark:text-textColor-dark truncate">
+                  paudelb11@gmail.com
+                </span>
+              </a>
+
+              <a
+                href="tel:+9779849632274"
+                className="flex items-center gap-2 hover:bg-gray-100 dark:hover:bg-gray-800 p-1.5 rounded-lg transition-colors"
+              >
+                <MdPhone className="text-primary text-lg flex-shrink-0" />
+                <span className="text-sm text-textColor-light dark:text-textColor-dark truncate">
+                  +977 9849632274
+                </span>
+              </a>
             </div>
           </div>
         </div>
