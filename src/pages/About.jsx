@@ -5,9 +5,11 @@ const About = () => {
   return (
     <div>
       <p className="mt-4 px-6 text-[20px] text-justify text-textColor-light dark:text-textColor-dark">
-        Aspiring Frontend Developer with a solid foundation in web development,
-        proficient in HTML, CSS, JavaScript and React. Equipped with hands-on
-        experience in creating responsive and user-friendly interfaces.
+        Aspiring Frontend Developer with a strong foundation in web development,
+        skilled in HTML, CSS, JavaScript, and React. Experienced in creating
+        responsive, user-friendly interfaces and applications. Dedicated to
+        continuous learning and improving my skills to deliver innovative
+        solutions.
       </p>
       <h3 className="text-xl font-bold text-primary mt-4 px-6">
         Skills & Tech Stack
