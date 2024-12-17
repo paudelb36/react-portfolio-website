@@ -26,7 +26,7 @@ const About = () => {
                 Frontend Development
               </h3>
             </div>
-            <p className="my-1 text-textColor-light">
+            <p className="my-1 text-textColor-light dark:text-textColor-dark">
               React, JavaScript, HTML5, CSS3, Tailwind CSS
             </p>
           </div>
@@ -41,7 +41,7 @@ const About = () => {
                 Backend Development
               </h3>
             </div>
-            <p className="my-1 text-textColor-light">PHP, MySQL, Firebase</p>
+            <p className="my-1 text-textColor-light dark:text-textColor-dark">PHP, MySQL, Firebase</p>
           </div>
         </div>
 
@@ -55,7 +55,7 @@ const About = () => {
                 Technical Skills
               </h3>
             </div>
-            <p className="my-1 text-textColor-light">
+            <p className="my-1 text-textColor-light dark:text-textColor-dark">
               Git, GitHub, VS Code, Responsive Design, Web Performance, Testing,
               Debugging
             </p>
@@ -71,7 +71,7 @@ const About = () => {
                 Soft Skills
               </h3>
             </div>
-            <p className="my-1 text-textColor-light">
+            <p className="my-1 text-textColor-light dark:text-textColor-dark">
               Problem Solving, Team Collaboration, Communication, Time
               Management
             </p>

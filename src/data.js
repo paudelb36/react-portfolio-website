@@ -8,6 +8,7 @@ export const projects = [
       "A web application that allows users to search for recipes based on ingredients, powered by React and styled with Tailwind CSS.",
     image: "public/recipeFinder.jpg",
     github_url: "https://github.com/paudelb36/recipe-finder",
+    url: "https://recipe-finder-site.netlify.app/",
     category: ["React"],
     key_value: ["React", "Tailwind"],
   },
@@ -38,6 +39,7 @@ export const projects = [
       "A simple task management application to organize and track daily tasks, created using JavaScript, HTML, and CSS.",
     image: "public/taskManager.jpg",
     github_url: "https://github.com/paudelb36/Task-Manager-Application",
+    url: "https://task-manager-application-rust.vercel.app/",
     category: ["Javascript"],
     key_value: ["Javascript", "HTML", "CSS"],
   },
@@ -53,7 +55,7 @@ export const projects = [
   },
   {
     id: 6,
-    name: "Nurse Management System",
+    name: "Nursery Management System",
     description:
       "A web-based management system for nursing services to manage schedules, records, and clients, created using PHP and MySQL.",
     image: "public/nursaryWebsite.jpg",
