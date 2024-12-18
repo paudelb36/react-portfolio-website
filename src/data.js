@@ -75,7 +75,6 @@ export const projects = [
   },
 ];
 
-
 export const education = [
     {
       id: 1,
@@ -99,7 +98,7 @@ export const education = [
       institution: "Sainik Awasiya Mahavidyalaya",
       location: "Bhaktapur, Nepal",
       duration: "2010 - 2017",
-      description: "Completed secondary education with distinction in Science and Mathematics."
+      description: "Completed secondary education."
     }
   ];
   

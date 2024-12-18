@@ -5,12 +5,12 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="relative">
+    <nav className="relative ">
       {/* Mobile Menu Button */}
       <div className="md:hidden flex justify-end p-4">
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
-          className="text-primary hover:text-secondary"
+          className="text-primary dark:text-primary hover:text-secondary dark:hover:text-white"
         >
           <svg
             className="w-6 h-6"
@@ -44,8 +44,8 @@ const Navbar = () => {
             to="/"
             className={({ isActive }) =>
               isActive
-                ? "text-highlight border-b-2 border-black py-2"
-                : "text-primary hover:text-secondary py-2"
+                ? "text-highlight dark:text-primary border-b-2 border-black dark:border-primary py-2"
+                : "text-primary dark:text-primary hover:text-secondary dark:hover:text-white py-2"
             }
             onClick={() => setIsMenuOpen(false)}
           >
@@ -55,9 +55,9 @@ const Navbar = () => {
             to="/projects"
             className={({ isActive }) =>
               isActive
-                ? "text-highlight border-b-2 border-black py-2"
-                : "text-primary hover:text-secondary py-2"
-            }
+            ? "text-highlight dark:text-primary border-b-2 border-black dark:border-primary py-2"
+            : "text-primary dark:text-primary hover:text-secondary dark:hover:text-white py-2"
+        }
             onClick={() => setIsMenuOpen(false)}
           >
             Projects
@@ -66,9 +66,9 @@ const Navbar = () => {
             to="/education"
             className={({ isActive }) =>
               isActive
-                ? "text-highlight border-b-2 border-black py-2"
-                : "text-primary hover:text-secondary py-2"
-            }
+            ? "text-highlight dark:text-primary border-b-2 border-black dark:border-primary py-2"
+            : "text-primary dark:text-primary hover:text-secondary dark:hover:text-white py-2"
+        }
             onClick={() => setIsMenuOpen(false)}
           >
             Education
@@ -77,9 +77,9 @@ const Navbar = () => {
             to="/resume"
             className={({ isActive }) =>
               isActive
-                ? "text-highlight border-b-2 border-black py-2"
-                : "text-primary hover:text-secondary py-2"
-            }
+            ? "text-highlight dark:text-primary border-b-2 border-black dark:border-primary py-2"
+            : "text-primary dark:text-primary hover:text-secondary dark:hover:text-white py-2"
+        }
             onClick={() => setIsMenuOpen(false)}
           >
             Resume
